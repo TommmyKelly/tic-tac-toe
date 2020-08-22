@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Mono:wght@600&family=Ubuntu:wght@500&display=swap');
+
+body {
+    background-color: green;
+    overflow: hidden;
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+}
+
+#player {
+    color: white;
+}
+
+.grid div {
+   width: 200px; 
+   height: 200px;
+   background-color: white;
+   margin-bottom: 5px;
+   
+
+}
+ .grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 610px;
+   height: 610px;
+   background-color: black;
+}
+
+.playerx{
+background: url('x.png');
+}
+
+.playero{
+    background: url('0.png');
+}
+
+button {
+    width: 25%;
+    height: 30px;
+    color: #fef4e9;
+    border: solid 2px #da7c0c;
+    border-radius: 30px;
+	background: rgb(244,122,32); 
+    text-transform: uppercase;
+    transition: background .5s ease-in-out;
+    cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto Mono', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+}
+button:hover{
+    background:white;
+    color:rgb(244,122,32) ;
+    
+	
+}
+#canvas{
+    height: 100vh;
+    width: 100vw;
+    display: none;
+}
