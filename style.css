@@ -2,7 +2,7 @@
 
 body {
     background-color: green;
-    
+   
     
 }
 main {
@@ -43,7 +43,7 @@ main {
 }
 
 .playerx{
-background: url('x.png'); 
+background: url('x.png');
 }
 
 .playero{
@@ -51,7 +51,8 @@ background: url('x.png');
 }
 
 button {
-/*     width: 25%; */
+    /* width: 25%; */
+   
     height: 30px;
     color: #fef4e9;
     border: solid 2px #da7c0c;
@@ -85,16 +86,15 @@ button:hover{
         width: 310px;
         height: 310px;
     }
+    #player {
+        color: white;
+        font-size: 20px;
+    }
 
     .grid div {
         width: 100px;
         height: 100px;
     }
-#player {
-    color: white;
-    font-size: 20px;		
-}
-		
     .playerx{
        background-size: contain;
       
