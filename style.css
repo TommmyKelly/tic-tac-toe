@@ -51,7 +51,7 @@ background: url('x.png');
 }
 
 button {
-    width: 25%;
+/*     width: 25%; */
     height: 30px;
     color: #fef4e9;
     border: solid 2px #da7c0c;
@@ -90,6 +90,11 @@ button:hover{
         width: 100px;
         height: 100px;
     }
+#player {
+    color: white;
+    font-size: 20px;		
+}
+		
     .playerx{
        background-size: contain;
       
