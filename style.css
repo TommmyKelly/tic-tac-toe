@@ -76,3 +76,28 @@ button:hover{
     width: 100vw;
     display: none;
 }
+
+@media(max-width: 650px){
+    .main{
+        width: 95%;
+    }
+    .grid{
+        width: 310px;
+        height: 310px;
+    }
+
+    .grid div {
+        width: 100px;
+        height: 100px;
+    }
+    .playerx{
+       background-size: contain;
+      
+        }
+        
+        .playero{
+            background-size: contain;
+            
+        }
+    
+}
